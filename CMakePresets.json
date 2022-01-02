@@ -2,6 +2,12 @@
   "version": 3,
   "configurePresets": [
     {
+      "name": "linux-debug",
+      "displayName": "Linux Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}"
+    },
+    {
       "name": "webos-debug",
       "displayName": "webOS Debug",
       "description": "Target webOS using webOS NDK.",
