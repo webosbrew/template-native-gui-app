@@ -1,0 +1,8 @@
+{
+  "id": "com.mycompany.myapp",
+  "type": "native",
+  "main": "myapp",
+  "icon": "icon.png",
+  "title": "Native App",
+  "version": "0.0.1"
+}
