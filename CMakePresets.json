@@ -1,0 +1,14 @@
+﻿{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "webos-debug",
+      "displayName": "webOS Debug",
+      "description": "Target webOS using webOS NDK.",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "toolchainFile": "/opt/webos-sdk-x86_64/1.0.g/sysroots/x86_64-webossdk-linux/usr/share/cmake/OEToolchainConfig.cmake",
+      "cmakeExecutable": "/opt/webos-sdk-x86_64/1.0.g/sysroots/x86_64-webossdk-linux/usr/bin/webos-cmake-wrapper"
+    }
+  ]
+}
